@@ -1,0 +1,6 @@
+com/bff/ecommerce/controllers/ProxyController.class
+com/bff/ecommerce/dto/CategoryDto.class
+com/bff/ecommerce/config/BffSecurityConfig.class
+com/bff/ecommerce/controllers/ProxyController$1.class
+com/bff/ecommerce/EcommerceApplication.class
+com/bff/ecommerce/config/RestConfig.class

@@ -1,0 +1,22 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          keycloak:
+            client-id: bff-server
+            client-secret: 9FIuYsvqQ8T7uG97oFkWhm77ZKUJxYlr
+            scope: openid, profile, offline_access
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:8080/realms/api-integration
+  application:
+    name: ecommerce
+server:
+  port: 8082
+  servlet:
+    context-path: "/bff"
+    session:
+      cookie:
+        http-only: true
+        secure: false # À mettre à false uniquement pour le dev en HTTP
